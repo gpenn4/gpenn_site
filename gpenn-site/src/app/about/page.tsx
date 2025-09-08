@@ -6,15 +6,15 @@ export default function AboutPage() {
     <main>
       <div className="space-y-6 space-x-6  px-40">
         <h1 className="text-3xl font-bold">About Me</h1>
-        <h2 className="text-xl font-bold">Hi, I'm Georgia Pennington!</h2>
-        <p>I'm 23 years old with a BSc Honours in Compurter Science and Psychology from the University of St Andrews.
+        <h2 className="text-xl font-bold">Hi, I&apos;m Georgia Pennington!</h2>
+        <p>I&apos;m 23 years old with a BSc Honours in Compurter Science and Psychology from the University of St Andrews.
           Outside of academia, I enjoy photography, reading, travel, and embroidery.
         </p>
 
         <div className="grid grid-cols-2 gap-10 items-center">
           <div>
             At St Andrews, I was a member of Szentek, a non-profit arts collective which raises money for Variety Scotland, a
-            children's charity based in Glasgow. In my final 2 years, I was Executive Director of the collective. I was responsible
+            children&apos;s charity based in Glasgow. In my final 2 years, I was Executive Director of the collective. I was responsible
             for overseeing the cross-functional teams (music, art, media, sponsorship, merchandise), managing communications with
             our vendors, and large-scale event production.
           </div>
