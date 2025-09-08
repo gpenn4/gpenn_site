@@ -1,0 +1,19 @@
+import Image from 'next/image'
+
+export default function ItalyPage() {
+    return <div>
+        <div className="gallery gap-4">
+            <Image src="/photos/italy/genoa1.jpg" alt="" width={300}
+                height={100} />
+            <Image src="/photos/italy/genoa2.jpg" alt="" width={300}
+                height={100} />
+            <Image src="/photos/italy/genoa4.jpg" alt="" width={300}
+                height={100} />
+            <Image src="/photos/italy/genoa3.jpg" alt="" width={300}
+                height={100} />
+            <Image src="/photos/italy/genoa5.jpg" alt="" width={125}
+                height={100} />
+        </div>
+
+    </div>
+}
