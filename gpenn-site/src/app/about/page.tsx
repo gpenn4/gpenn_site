@@ -47,7 +47,7 @@ export default function AboutPage() {
             <h1>Git</h1>
           </div>
           <div>
-            <Image src="/icons/MatLab_Logo.png" alt="MatLab Logo" width={40}
+            <Image src="/icons/Matlab_Logo.png" alt="Matlab Logo" width={40}
               height={100} />
             <h1>MatLab</h1>
           </div>
