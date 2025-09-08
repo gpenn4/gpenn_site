@@ -39,30 +39,24 @@ export default function ProjectsPage() {
           </div>
 
           <div className='space-y-6'>
-            <h1 className="text-2xl font-bold">Professional</h1>
+            <h1 className="text-2xl font-bold">Internships</h1>
 
             <Popup trigger={<button className="trigger-button">GoldenTree Asset Management - Technology Intern</button>} position="right center" modal nested>
               <div className="modal">
-                <div className="header">Tech Stack</div>
+                {/* <div className="header">Tech Stack</div> */}
                 <div className="content">
-                  <ul className="list-disc pl-5 space-y-2">
-                    <li>Python</li>
-                    <li>C#</li>
-                    <li>Powershell</li>
-                  </ul>
+                  <p className='font-bold'>Tech Stack:</p>
+                  <p className='pl-6'>Python, GitLab, C#, Powershell, SQL, SQLServer</p>
                 </div>
               </div>
             </Popup>
 
             <Popup trigger={<button className="trigger-button">Local Knowledge - Full Stack Developer</button>} position="right center" modal nested>
               <div className="modal">
-                <div className="header">Tech Stack</div>
+                {/* <div className="header">Tech Stack</div> */}
                 <div className="content">
-                  <ul className="list-disc pl-5 space-y-2">
-                    <li>Flutter</li>
-                    <li>Firebase</li>
-                    <li>Vue.js</li>
-                  </ul>
+                  <p className='font-bold'>Tech Stack:</p>
+                  <p className='pl-6'>Flutter, Firebase, Vue.js</p>
                 </div>
               </div>
             </Popup>

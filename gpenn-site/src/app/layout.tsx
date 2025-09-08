@@ -9,12 +9,18 @@ export const metadata: Metadata = {
   description: "Portfolio & projects",
 };
 
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover", // supports iOS notch safe areas
+};
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className="h-full overflow-x-hidden">
       <body className="min-h-dvh bg-white text-gray-900 antialiased">
         <header className="border-b">
-          <nav className="mx-auto max-w-6xl px-4 py-4 flex items-center justify-between">
+          <nav className="mx-auto max-w-6xl px-4 py-4 flex items-center justify-between sm:flex hidden items-center gap-4">
             <Link href="/" className="font-semibold">
               <Image src="/icon.png" alt="GP" width={30}
                 height={30} />
@@ -35,7 +41,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </div>
           </nav>
         </header>
-        <main className="mx-auto">{children}</main> 
+        <main className="mx-auto">{children}</main>
         {/* "mx-auto max-w-6xl px-4 py-10" */}
 
         <footer className="mx-auto max-w-6xl px-4 py-2 text-sm text-gray-500 border-t">
