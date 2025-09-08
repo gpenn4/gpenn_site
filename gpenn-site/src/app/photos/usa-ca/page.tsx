@@ -13,13 +13,13 @@ export default function USPage() {
                 height={100} />
             <Image src="/photos/usa/Aspen1.jpeg" alt="" width={125}
                 height={100} />
-            <Image src="/photos/usa/Aspen6.JPG" alt="" width={300}
+            <Image src="/photos/usa/aspen6.JPG" alt="" width={300}
                 height={100} />
             <Image src="/photos/usa/aspen7.JPG" alt="" width={300}
                 height={100} />
             <Image src="/photos/usa/aspen8.JPG" alt="" width={125}
                 height={100} />
-            <Image src="/photos/usa/Aspen9.jpg" alt="" width={300}
+            <Image src="/photos/usa/aspen9.jpg" alt="" width={300}
                 height={100} />
 
             <Image src="/photos/usa/gwich1.JPG" alt="" width={300}
@@ -37,9 +37,9 @@ export default function USPage() {
             <Image src="/photos/usa/gwich1.heic" alt="" width={125}
                 height={100} />
 
-            <Image src="/photos/usa/NY1.JPG" alt="" width={300}
+            <Image src="/photos/usa/NY1.jpg" alt="" width={300}
                 height={100} />
-            <Image src="/photos/usa/NY2.JPG" alt="" width={300}
+            <Image src="/photos/usa/NY2.jpg" alt="" width={300}
                 height={100} />
             <Image src="/photos/usa/ny3.JPG" alt="" width={300}
                 height={100} />
