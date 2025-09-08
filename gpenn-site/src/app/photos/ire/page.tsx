@@ -15,7 +15,7 @@ export default function IrelandPage() {
                 height={100} />
             <Image src="/photos/ireland/dublin6.jpg" alt="" width={300}
                 height={100} />
-            <Image src="/photos/ireland/dublin7.jpg" alt="" width={300}
+            <Image src="/photos/ireland/dublin7.JPG" alt="" width={300}
                 height={100} />
 
         </div>

@@ -24,7 +24,7 @@ export default function AboutPage() {
                 height={200} />
             </Link>
              <Link href="https://www.variety.org.uk/location/scotland/">
-              <Image src="/icons/variety.png" alt="Variety Logo" width={100}
+              <Image src="/icons/VARIETY.png" alt="Variety Logo" width={100}
                 height={200} />
             </Link>
           </div>
@@ -47,7 +47,7 @@ export default function AboutPage() {
             <h1>Git</h1>
           </div>
           <div>
-            <Image src="/icons/matlab_logo.png" alt="MatLab Logo" width={40}
+            <Image src="/icons/MatLab_Logo.png" alt="MatLab Logo" width={40}
               height={100} />
             <h1>MatLab</h1>
           </div>

@@ -6,7 +6,7 @@ import Marquee from "./components/marquee";
 export default function Home() {
   return (<div
       style={{
-        backgroundImage: 'url("/photos/scotland/scotland35.jpg")',
+        backgroundImage: 'url("/photos/scotland/scotland35.JPG")',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
