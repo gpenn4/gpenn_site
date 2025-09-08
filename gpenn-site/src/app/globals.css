@@ -5,7 +5,12 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --safe-bottom: env(safe-area-inset-bottom); 
+  --safe-top: env(safe-area-inset-top);
 }
+
+.footer { padding-bottom: calc(1rem + var(--safe-bottom)); }
+.header { padding-top: calc(0.75rem + var(--safe-top)); }
 
 @theme inline {
   --color-background: var(--background);
@@ -46,18 +51,19 @@ body {
 }
 
 .trigger-button {
-    padding: 10px 20px;
-    background-color: #0070f3;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .trigger-button:hover {
-    background-color: #005bb5;
-  }
+  padding: 10px 20px;
+  background-color: #7e00f36e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.trigger-button:hover {
+  background-color: #faf6af;
+  color: #7e00f36e;
+}
 
 /* Popup modal overlay */
 .popup-overlay {
@@ -67,17 +73,36 @@ body {
 /* Popup modal content */
 .modal {
   background: white;
-  border-radius: 8px;
+  /* border-radius: 8px; */
   padding: 20px;
-  margin: 10px;
-  /* max-width: 500px; */
   width: 100%;
   position: relative;
   /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
 }
 
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.header {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.content {
+  /* margin-top: 20px; */
+  margin-bottom: 20px;
+}
+
 .text-body {
   padding: auto;
+  margin: 5px;
 }
 
 .marquee-track {

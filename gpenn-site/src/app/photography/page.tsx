@@ -36,11 +36,10 @@ export default function MapPage() {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const [size, setSize] = useState({ width: 0, height: 0 });
 
-  // Load TopoJSON → GeoJSON once per mount
   useEffect(() => {
     let cancelled = false;
     (async () => {
-      const res = await fetch(geoUrl, { cache: "force-cache" }); // local static file
+      const res = await fetch(geoUrl, { cache: "force-cache" }); 
       const topo = await res.json();
 
       const objects = (topo as any).objects;
@@ -63,7 +62,6 @@ export default function MapPage() {
     };
   }, []);
 
-  // Observe container size (so we can fit the projection)
   useEffect(() => {
     if (!containerRef.current) return;
     const el = containerRef.current;
@@ -79,12 +77,10 @@ export default function MapPage() {
     return () => ro.disconnect();
   }, []);
 
-  // Create a NEW projection whenever data/size change (no mutation of a memoized instance)
   const projection: GeoProjection | null = useMemo(() => {
     if (!countries.length || size.width === 0 || size.height === 0) return null;
     const proj = geoNaturalEarth1();
     const fc: FeatureCollection = { type: "FeatureCollection", features: countries } as any;
-    // snug fit
     (proj as any).fitSize([size.width, size.height], fc);
     return proj;
   }, [countries, size.width, size.height]);

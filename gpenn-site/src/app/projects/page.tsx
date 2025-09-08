@@ -6,7 +6,7 @@ import 'reactjs-popup/dist/index.css';
 
 export default function ProjectsPage() {
   return (
-    <div className="space-y-6 max-w-6xl  px-10 py-4">
+    <div className="max-w-6xl  px-10 py-4">
       <main>
         <h1 className="text-3xl font-bold">Projects</h1>
         <div className="grid grid-cols-2 gap-10 items-start">
