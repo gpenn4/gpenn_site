@@ -29,7 +29,7 @@ export default function AboutPage() {
             </Link>
           </div>
         </div>
-        <h1 className="text-xl font-bold">Technical Experience</h1>
+        <h1 className="text-xl font-bold">Technical Skills</h1>
         <div className='gallery'>
           <div>
             <Image src="/icons/python_logo.png" alt="Python Logo" width={30}
