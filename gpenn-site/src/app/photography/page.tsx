@@ -39,7 +39,7 @@ export default function MapPage() {
   useEffect(() => {
     let cancelled = false;
     (async () => {
-      const res = await fetch(geoUrl, { cache: "force-cache" }); 
+      const res = await fetch(geoUrl, { cache: "force-cache" });
       const topo = await res.json();
 
       const objects = (topo as any).objects;
@@ -104,7 +104,7 @@ export default function MapPage() {
               role="img"
               aria-label="World map; clickable countries indicate photo galleries"
             >
-              <rect width="100%" height="100%" fill="#2ec5e3ff" />
+              <rect width="100%" height="100%" fill="#9fd0eeff" />
 
               <g>
                 {countries.map((country, i) => {
@@ -112,8 +112,9 @@ export default function MapPage() {
                   const code = regionMap[name];
                   const d = path!(country) || "";
 
-                  const baseFill = code ? "#e5e7eb" : "#f8fafc";
-                  const hoverFill = code ? "#c07eea" : "#f8fafc";
+                  const baseFill = code ? "#d4d6dbff" : "#f8fafc";
+                  const hoverFill = code ? "#cf9eedff" : "#f8fafc";
+
 
                   return (
                     <path
