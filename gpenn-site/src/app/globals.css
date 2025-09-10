@@ -73,11 +73,12 @@ body {
 /* Popup modal content */
 .modal {
   background: white;
-  /* border-radius: 8px; */
+  overflow-y: auto;
+  max-height: 80vh;
   padding: 20px;
   width: 100%;
   position: relative;
-  /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+  padding: 1rem;
 }
 
 .close {
