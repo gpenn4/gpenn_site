@@ -22,12 +22,14 @@ export default function UKPage() {
         height={100} />
       <Image src="/photos/scotland/sta15.JPG" alt="" width={125}
         height={100} />
-      <Image src="/photos/scotland/sta9.JPG" alt="" width={300}
+      <Image src="/photos/scotland/scotland26.JPG" alt="" width={300}
         height={100} />
+      {/* <Image src="/photos/scotland/sta9.JPG" alt="" width={300}
+        height={100} /> */}
       <Image src="/photos/scotland/sta10.jpg" alt="" width={300}
         height={100} />
-      <Image src="/photos/scotland/sta18.JPG" alt="" width={300}
-        height={100} />
+      {/* <Image src="/photos/scotland/sta18.JPG" alt="" width={300}
+        height={100} /> */}
       <Image src="/photos/scotland/sta11.jpg" alt="" width={125}
         height={100} />
       <Image src="/photos/scotland/sta12.JPG" alt="" width={300}
@@ -47,10 +49,10 @@ export default function UKPage() {
         height={100} />
       <Image src="/photos/scotland/scotland8.JPG" alt="" width={300}
         height={100} />
-      <Image src="/photos/scotland/scotland5.JPG" alt="" width={300}
-        height={100} />
-      <Image src="/photos/scotland/scotland6.JPG" alt="" width={300}
-        height={100} />
+      {/* <Image src="/photos/scotland/scotland5.JPG" alt="" width={300}
+        height={100} /> */}
+      {/* <Image src="/photos/scotland/scotland6.JPG" alt="" width={300}
+        height={100} /> */}
       <Image src="/photos/scotland/scotland7.JPG" alt="" width={300}
         height={100} />
       <Image src="/photos/scotland/scotland9.JPG" alt="" width={300}
@@ -84,8 +86,6 @@ export default function UKPage() {
       <Image src="/photos/scotland/scotland19.JPG" alt="" width={300}
         height={100} />
       <Image src="/photos/scotland/scotland24.JPG" alt="" width={300}
-        height={100} />
-      <Image src="/photos/scotland/scotland26.jpg" alt="" width={300}
         height={100} />
       <Image src="/photos/scotland/scotland25.JPG" alt="" width={300}
         height={100} />
@@ -125,8 +125,8 @@ export default function UKPage() {
         height={100} />
       <Image src="/photos/scotland/london3.JPG" alt="" width={300}
         height={100} />
-      <Image src="/photos/scotland/london4.JPG" alt="" width={300}
-        height={100} />
+      {/* <Image src="/photos/scotland/london4.JPG" alt="" width={300}
+        height={100} /> */}
     </div>
 
   </div>
