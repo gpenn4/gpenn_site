@@ -39,6 +39,8 @@ export default function SpainPage() {
                 height={100} />
             <Image src="/photos/spain/tenerife9.JPG" alt="" width={300}
                 height={100} />
+            <Image src="/photos/spain/tenerife10.JPG" alt="" width={125}
+                height={100} />
 
             <Image src="/photos/spain/lanzarote1.JPG" alt="" width={300}
                 height={100} />
@@ -65,7 +67,9 @@ export default function SpainPage() {
             <Image src="/photos/spain/lanzarote12.JPG" alt="" width={300}
                 height={100} />
             <Image src="/photos/spain/lanzarote13.JPG" alt="" width={300}
-                height={100} />            
+                height={100} /> 
+            <Image src="/photos/spain/lanzarote14.JPG" alt="" width={125}
+                height={100} />           
         </div>
 
     </div>

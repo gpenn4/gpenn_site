@@ -11,6 +11,8 @@ export default function BelgiumPage() {
                 height={100} />
             <Image src="/photos/belgium/brussels6.JPG" alt="" width={300}
                 height={100} />
+            <Image src="/photos/belgium/brussels11.jpg" alt="" width={125}
+                height={100} />
             <Image src="/photos/belgium/brussels7.JPG" alt="" width={300}
                 height={100} />
             <Image src="/photos/belgium/brussels8.JPG" alt="" width={300}
@@ -23,7 +25,8 @@ export default function BelgiumPage() {
 
             <Image src="/photos/belgium/brussels1.jpg" alt="" width={125}
                 height={100} />
-
+            <Image src="/photos/belgium/brussels10.jpg" alt="" width={125}
+                height={100} />
         </div>
 
     </div>

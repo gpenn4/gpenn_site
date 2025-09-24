@@ -36,6 +36,8 @@ export default function SpainPage() {
                 height={100} />
             <Image src="/photos/france/nice3.JPG" alt="" width={300}
                 height={100} />
+            <Image src="/photos/france/nice4.JPG" alt="" width={125}
+                height={100} />
                         
         </div>
 
