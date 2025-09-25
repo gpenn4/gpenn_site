@@ -4,6 +4,7 @@ import Popup from 'reactjs-popup';
 import React from 'react';
 import 'reactjs-popup/dist/index.css';
 import Image from 'next/image'
+import Link from "next/link";
 
 const Tag: React.FC<{ label: string }> = ({ label }) => (
   <span className="inline-block rounded-full border px-2 py-1 text-xs leading-none">
@@ -19,8 +20,10 @@ export default function ProjectsPage() {
         <div className="grid grid-cols-2 gap-10 items-start text-center">
 
           <div className='space-y-4'>
+            {/* ACADEMIC COLUMN */}
             <h1 className="text-2xl font-bold">Academic</h1>
 
+            {/* CS DISSERTATION */}
             <Popup trigger={
               <button className="trigger-button">How Do Data Visualisation Students Learn? Analysing Behaviour in a Self-Paced Online Module
                 <div className="mt-4 flex flex-wrap gap-2">
@@ -42,14 +45,18 @@ export default function ProjectsPage() {
                   <p className='pl-6'>1. Perform exploratory analysis on the module virtual learning environment data.</p>
                   <p className='pl-6'>2. Identify typical learning pathways in the module.</p>
                   <p className='pl-6'>3. Identify student engagement patterns with different module topics and types of learning resources.</p>
+                  <div className="header italic">Example Plots:</div>
                   <div className="text-center items-center">
-                    <Image src='/photos/distinct_completion_pathways.png' width={600} height={300} alt="Distinct Assignment Completion Pathways"></Image>
-                    <p>Distinct assignment completion pathways of students who have completed all assignments in the module.</p>
+                    <Image src='/photos/distinct_completion_pathways.png' width={800} height={300} alt="Distinct Assignment Completion Pathways"></Image>
+                    <p>Distinct assignment completion pathways (order in which students completed assignments) by the number of students who followed the pathway.</p>
+                    <Image src='/photos/common-pathways.png' width={800} height={300} alt="Common Pathways"></Image>
+                    <p>Common virtual learning environment interaction patterns among students.</p>
                   </div>
                 </div>
               </div>
             </Popup>
 
+            {/* PSYCHOLOGY DISSERTATION */}
             <Popup trigger={<button className="trigger-button">Does Core Social Class Stereotype Content Differ by Group Membership? A False Memory Approach
               <div className="mt-4 flex flex-wrap gap-2">
                 <Tag key={"Python"} label={"Python"} />
@@ -67,8 +74,98 @@ export default function ProjectsPage() {
               </div>
             </Popup>
 
+            {/* ENGLAND SCHOOL ABSENCE ANALYSIS */}
+            <Popup trigger={<button className="trigger-button">England School Absence Analysis
+              <div className="mt-4 flex flex-wrap gap-2">
+                <Tag key={"Python"} label={"Python"} />
+                <Tag key={"Apache Spark"} label={"Apache Spark"} />
+                <Tag key={"Matplotlib"} label={"Matplotlib"} />
+              </div>
+            </button>} position="right center" modal nested>
+              <div className="modal">
+                <div className="header font-bold">March 2025 | University of St Andrews</div>
+                <div className="content">
+                  <div className="inline-block rounded-full border px-5 py-5 leading-none bg-yellow-200 text-center">
+                    <p>A CL application to explore absence rates by geographic location and other filters.</p>
+                  </div>
+                  <div className='justify-center'>
+                    <div className="header italic">Example plots:</div>
+                    <Image src='/photos/esa-graph1.png' width={350} height={400} alt="EMM False Alarm Rate Graphs"></Image>
+                    <Image src='/photos/esa-graph2.png' width={400} height={200} alt="EMM False Alarm Rate Graphs"></Image>
+                  </div>
+                </div>
+              </div>
+            </Popup>
+
+            {/* TEMPERATURE PREDICTION MODEL */}
+            <Popup trigger={<button className="trigger-button">Temperature Prediction Model
+              <div className="mt-4 flex flex-wrap gap-2">
+                <Tag key={"Python"} label={"Python"} />
+                <Tag key={"Scikit-learn"} label={"Scikit-learn"} />
+                <Tag key={"Pandas"} label={"Pandas"} />
+                <Tag key={"NumPy"} label={"NumPy"} />
+                <Tag key={"Matplotlib"} label={"Matplotlib"} />
+                <Tag key={"Jupyter"} label={"Jupyter"} />
+              </div>
+            </button>} position="right center" modal nested>
+              <div className="modal">
+                <div className="header font-bold">April 2025 | University of St Andrews</div>
+                <div className="content">
+                  <div className="inline-block rounded-full border px-5 py-5 leading-none bg-yellow-200 text-center">
+                    <p>Collaborated in a team of five to clean and transform weather data, develop and evaluate multiple regression models (including a neural network) for temperature prediction, and select the best-performing model.</p>
+                  </div>
+                  <div className='justify-center'>
+                    <div className="header italic">Model Comparison:</div>
+                    <Image src='/photos/weather-RMSE.png' width={400} height={200} alt="EMM False Alarm Rate Graphs"></Image>
+                    <Image src='/photos/weather-R2.png' width={400} height={200} alt="EMM False Alarm Rate Graphs"></Image>
+                  </div>
+                </div>
+              </div>
+            </Popup>
+
+            {/* AUDIO PROCESSING PROJECT */}
+            {/* <Popup trigger={<button className="trigger-button">Temperature Prediction Model
+              <div className="mt-4 flex flex-wrap gap-2">
+                <Tag key={"Matlab"} label={"Matlab"} />
+              </div>
+            </button>} position="right center" modal nested>
+              <div className="modal">
+                <div className="header font-bold">November 2024 | University of St Andrews</div>
+                <div className="content">
+                  <div className="inline-block rounded-full border px-5 py-5 leading-none bg-yellow-200 text-center">
+                    <p>Developed an audio cleaning application to remove background noise using Matlab.</p>
+                  </div>
+                  <div className='justify-center'>
+                    <div className="header italic">Model Comparison:</div>
+                    <Image src='/photos/audio-processing.png' width={400} height={200} alt="EMM False Alarm Rate Graphs"></Image>
+                  </div>
+                </div>
+              </div>
+            </Popup> */}
+
+            {/* IMAGE PROCESSING PROJECT */}
+            <Popup trigger={<button className="trigger-button">Image Processing Project
+              <div className="mt-4 flex flex-wrap gap-2">
+                <Tag key={"Matlab"} label={"Matlab"} />
+              </div>
+            </button>} position="right center" modal nested>
+              <div className="modal">
+                <div className="header font-bold">November 2024 | University of St Andrews</div>
+                <div className="content">
+                  <div className="inline-block rounded-full border px-5 py-5 leading-none bg-yellow-200 text-center">
+                    <p>Developed an application to count the number of small screws, large screws, and washers in an image.</p>
+                  </div>
+                  <div className='justify-center'>
+                    <div className="header italic">Model Comparison:</div>
+                    <Image src='/photos/image-processing.png' width={500} height={200} alt="EMM False Alarm Rate Graphs"></Image>
+                  </div>
+                </div>
+              </div>
+            </Popup>
+
           </div>
 
+          {/* INTERNSHIPS COLUMN */}
           <div className='space-y-6'>
             <h1 className="text-2xl font-bold">Internships</h1>
 
@@ -129,8 +226,8 @@ export default function ProjectsPage() {
                 <div className="content">
                   <div className="header italic">Highlights:</div>
                   <p className='pl-6'>- Implemented core mobile app features including sign-in, sign-up, profile, and profile settings using Flutter and Firebase.</p>
-                   <p className='pl-6'>- Integrated Firebase Authentication to manage user accounts securely.</p>
-                   <p className='pl-6'>- Collaborated with the startup team to translate requirements into functional UI/UX flows within Flutter.</p>
+                  <p className='pl-6'>- Integrated Firebase Authentication to manage user accounts securely.</p>
+                  <p className='pl-6'>- Collaborated with the startup team to translate requirements into functional UI/UX flows within Flutter.</p>
                 </div>
               </div>
             </Popup>
