@@ -65,7 +65,7 @@ export default function UKPage() {
         height={100} />
       <Image src="/photos/scotland/scotland35.JPG" alt="" width={300}
         height={100} />
-      <Image src="/photos/scotland/scotland41.JPG" alt="" width={125}
+      <Image src="/photos/scotland/scotland41.jpg" alt="" width={125}
         height={100} />
       <Image src="/photos/scotland/scotland31.JPG" alt="" width={300}
         height={100} />
@@ -86,7 +86,7 @@ export default function UKPage() {
 
       <Image src="/photos/scotland/sta6.jpg" alt="" width={300}
         height={100} />
-      <Image src="/photos/scotland/sta17.jpg" alt="" width={125}
+      <Image src="/photos/scotland/sta17.JPG" alt="" width={125}
         height={100} />
       <Image src="/photos/scotland/sta7.JPG" alt="" width={300}
         height={100} />
@@ -120,7 +120,7 @@ export default function UKPage() {
         height={100} />
       <Image src="/photos/scotland/sta16.jpg" alt="" width={125}
         height={100} />
-      <Image src="/photos/scotland/sta19.jpg" alt="" width={125}
+      <Image src="/photos/scotland/sta19.JPG" alt="" width={125}
         height={100} />
 
       <Image src="/photos/scotland/edi1.JPG" alt="" width={300}

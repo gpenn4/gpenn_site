@@ -20,7 +20,7 @@ export default function IcelandPage() {
             <Image src="/photos/iceland/reyk8.JPG" alt="" width={125}
                 height={100} />
                 
-            <Image src="/photos/iceland/ice7.jpg" alt="" width={300}
+            <Image src="/photos/iceland/ice7.JPG" alt="" width={300}
                 height={100} />
             <Image src="/photos/iceland/ice1.jpg" alt="" width={300}
                 height={100} />
