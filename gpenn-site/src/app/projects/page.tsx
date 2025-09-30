@@ -78,15 +78,21 @@ export default function ProjectsPage() {
             <Popup trigger={<button className="trigger-button">England School Absence Analysis
               <div className="mt-4 flex flex-wrap gap-2">
                 <Tag key={"Python"} label={"Python"} />
-                <Tag key={"Apache Spark"} label={"Apache Spark"} />
+                <Tag key={"PySpark"} label={"PySpark"} />
+                <Tag key={"NumPy"} label={"NumPy"} />
                 <Tag key={"Matplotlib"} label={"Matplotlib"} />
               </div>
             </button>} position="right center" modal nested>
               <div className="modal">
                 <div className="header font-bold">March 2025 | University of St Andrews</div>
+                <div className='underline'>
+                  <Link href="https://github.com/gpenn4/spark-uk-attendance-app" className='text-left'>Click to View Project on GitHub</Link>
+                </div>
                 <div className="content">
-                  <div className="inline-block rounded-full border px-5 py-5 leading-none bg-yellow-200 text-center">
-                    <p>A CL application to explore absence rates by geographic location and other filters.</p>
+                  <div className='text-center justify-center'>
+                    <div className="inline-block rounded-full border px-5 py-5 leading-none bg-yellow-200 text-center">
+                      <p>A CL application to explore absence rates by geographic location and other filters.</p>
+                    </div>
                   </div>
                   <div className='justify-center'>
                     <div className="header italic">Example plots:</div>
@@ -156,7 +162,7 @@ export default function ProjectsPage() {
                     <p>Developed an application to count the number of small screws, large screws, and washers in an image.</p>
                   </div>
                   <div className='justify-center'>
-                    <div className="header italic">Model Comparison:</div>
+                    <div className="header italic">Example:</div>
                     <Image src='/photos/image-processing.png' width={500} height={200} alt="EMM False Alarm Rate Graphs"></Image>
                   </div>
                 </div>
