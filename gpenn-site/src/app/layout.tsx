@@ -19,11 +19,12 @@ export const viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className="h-full overflow-x-hidden">
-      <body className="min-h-dvh bg-white text-gray-900 antialiased">
-        <header className="sticky top-0 z-50 border-b bg-white/80 backdrop-blur supports-[backdrop-filter]:bg-white/60
+      <body className="w-full min-h-dvh bg-white text-gray-900 antialiased">
+        <header className="sticky top-0 z-50 border-b bg-white/80 backdrop-blur supports-[backdrop-filter]:bg-white/60 pt-[env(safe-area-inset-top)]">
+          <nav className="w-full px-4 md:px-6 py-3 flex items-center justify-between">
+            {/* <header className="sticky top-0 z-50 border-b bg-white/80 backdrop-blur supports-[backdrop-filter]:bg-white/60
           pt-[env(safe-area-inset-top)]">
-          <nav className="container mx-auto max-w-screen-lg px-4 md:px-6 py-3 flex items-center justify-between">
-            {/* <nav className="mx-auto max-w-6xl px-4 py-4 flex items-center justify-between sm:flex hidden items-center gap-4"> */}
+          <nav className="w-full container mx-auto max-w-screen-lg px-4 md:px-6 py-3 flex items-center justify-between"> */}
             <Link href="/" className="shrink-0" aria-label="Home">
               <Image
                 src="/icon.png"
@@ -35,7 +36,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               />
             </Link>
 
-            {/* Right side links: stack on mobile, inline on md+ */}
             <div className="flex items-center gap-4">
               <div className="hidden sm:flex items-center gap-4 text-sm">
                 <Link href="/projects" className="hover:underline">Projects</Link>
@@ -72,9 +72,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {children}
           <Analytics></Analytics>
         </main>
-        {/* "mx-auto max-w-6xl px-4 py-10" */}
 
-        <footer className="mx-auto max-w-6xl px-4 py-2 text-sm text-gray-500 border-t">
+        <footer className="w-full px-4 py-2 text-sm text-gray-500 border-t">
           © {new Date().getFullYear()} Georgia Pennington
         </footer>
 
