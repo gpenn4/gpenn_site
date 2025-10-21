@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-export default function SpainPage() {
+export default function FrancePage() {
     return <div>
         <div className="gallery gap-4">
             <Image src="/photos/france/paris1.jpg" alt="" width={300}
@@ -29,6 +29,12 @@ export default function SpainPage() {
                 height={100} />
             <Image src="/photos/france/paris13.jpg" alt="" width={300}
                 height={100} />
+            <Image src="/photos/france/paris15.jpg" alt="" width={300}
+                height={100} />
+            <Image src="/photos/france/paris16.jpg" alt="" width={300}
+                height={100} />
+            <Image src="/photos/france/paris17.jpg" alt="" width={300}
+                height={100} />
 
             <Image src="/photos/france/nice1.JPG" alt="" width={300}
                 height={100} />
@@ -38,7 +44,10 @@ export default function SpainPage() {
                 height={100} />
             <Image src="/photos/france/nice4.JPG" alt="" width={125}
                 height={100} />
-                        
+            <Image src="/photos/france/nice5.JPG" alt="" width={125}
+                height={100} />
+            <Image src="/photos/france/nice6.JPG" alt="" width={300}
+                height={100} />              
         </div>
 
     </div>
