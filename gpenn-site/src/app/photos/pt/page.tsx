@@ -19,6 +19,8 @@ export default function PortugalPage() {
                 height={100} />
             <Image src="/photos/portugal/lisbon8.jpg" alt="" width={300}
                 height={100} />
+            <Image src="/photos/portugal/lisbon9.JPG" alt="" width={300}
+                height={100} />
 
             <Image src="/photos/portugal/porto1.jpg" alt="" width={300}
                 height={100} />
@@ -32,6 +34,8 @@ export default function PortugalPage() {
                 height={100} />
             <Image src="/photos/portugal/porto3.JPG" alt="" width={300}
                 height={100} />
+            <Image src="/photos/portugal/porto11.jpg" alt="" width={125}
+                height={100} />
 
             <Image src="/photos/portugal/portugal1.JPG" alt="" width={300}
                 height={100} />
@@ -39,14 +43,13 @@ export default function PortugalPage() {
                 height={100} />
             <Image src="/photos/portugal/portugal3.JPG" alt="" width={300}
                 height={100} />
+            <Image src="/photos/portugal/portugal6.JPG" alt="" width={300}
+                height={100} />
             <Image src="/photos/portugal/portugal4.JPG" alt="" width={300}
                 height={100} />
             <Image src="/photos/portugal/portugal5.JPG" alt="" width={300}
                 height={100} />
 
-            {/* portrait photos */}
-            <Image src="/photos/portugal/porto11.jpg" alt="" width={125}
-                height={100} />
 
         </div>
 
