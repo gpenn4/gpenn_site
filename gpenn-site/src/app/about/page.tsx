@@ -5,11 +5,18 @@ export default function AboutPage() {
   return (
     <main>
       <div className="space-y-6 space-x-6  px-40">
-        <h1 className="text-3xl font-bold">About Me</h1>
         <h2 className="text-xl font-bold">Hi, I&apos;m Georgia Pennington!</h2>
-        <p>I&apos;m 23 years old with a BSc Honours in Compurter Science and Psychology from the University of St Andrews.
-          Outside of academia, I enjoy photography, reading, travel, and embroidery.
-        </p>
+        <div className='grid grid-cols-2 gap-0 items-center '>
+          <div className='flex items-center justify-center'>
+            <img src="/photos/me.jpg" alt="Me" className="w-1/2 h-auto rounded-lg shadow-lg" />
+          </div>
+          <div className='flex items-center'>
+            {/* <p>I have work experience in software and data engineering, as well as application development.</p> */}
+            <p>I&apos;m 23 years old with a BSc Honours in Computer Science and Psychology from the University of St Andrews.
+              Outside of academia, I enjoy photography, reading, travel, and embroidery.
+            </p>
+          </div>
+        </div>
 
         <div className="grid grid-cols-2 gap-10 items-center">
           <div>
@@ -18,19 +25,20 @@ export default function AboutPage() {
             for overseeing the cross-functional teams (music, art, media, sponsorship, merchandise), managing communications with
             our vendors, and large-scale event production.
           </div>
-          <div className='grid grid-cols-2 gap-10 items-center content-center'>
+          <div className='grid grid-cols-2 gap-10 flex items-center justify-center'>
             <Link href="https://szentek.com">
               <Image src="/icons/szentek_gif.gif" alt="Szentek" width={300}
                 height={200} />
             </Link>
-             <Link href="https://www.variety.org.uk/location/scotland/">
+            <Link href="https://www.variety.org.uk/location/scotland/">
               <Image src="/icons/VARIETY.png" alt="Variety Logo" width={100}
                 height={200} />
             </Link>
           </div>
         </div>
         <h1 className="text-xl font-bold">Technical Skills</h1>
-        <div className='gallery'>
+        {/* <div className='flex flex-col gap-10 justify-center items-center'> */}
+        <div className="grid grid-cols-8 gap-15 flex justify-center items-center">
           <div>
             <Image src="/icons/python_logo.png" alt="Python Logo" width={30}
               height={100} />
@@ -59,7 +67,8 @@ export default function AboutPage() {
         </div>
         <div>
         </div>
-      </div>
+        </div>
+      {/* </div> */}
     </main >
   );
 }
