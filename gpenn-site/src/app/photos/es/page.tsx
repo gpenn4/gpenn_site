@@ -9,6 +9,8 @@ export default function SpainPage() {
                 height={100} />
             <Image src="/photos/spain/mallorca2.JPG" alt="" width={300}
                 height={100} />
+            <Image src="/photos/spain/mallorca4.jpg" alt="" width={300}
+                height={100} />
 
             <Image src="/photos/spain/barcelona1.JPG" alt="" width={300}
                 height={100} />
