@@ -49,6 +49,5 @@ export default function FrancePage() {
             <Image src="/photos/france/nice6.JPG" alt="" width={300}
                 height={100} />              
         </div>
-
     </div>
 }
