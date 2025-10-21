@@ -5,6 +5,8 @@ export default function MoroccoPage() {
         <div className="gallery gap-4">
             <Image src="/photos/morocco/marrakech1.JPG" alt="" width={300}
                 height={100} />
+            <Image src="/photos/morocco/marrakech17.JPG" alt="" width={300}
+                height={100} />
             <Image src="/photos/morocco/marrakech2.JPG" alt="" width={300}
                 height={100} />
             <Image src="/photos/morocco/marrakech3.JPG" alt="" width={300}
@@ -25,8 +27,20 @@ export default function MoroccoPage() {
                 height={100} />
             <Image src="/photos/morocco/marrakech11.JPG" alt="" width={300}
                 height={100} />
-            
+            <Image src="/photos/morocco/marrakech12.jpg" alt="" width={300}
+                height={100} />
+            <Image src="/photos/morocco/marrakech13.JPG" alt="" width={300}
+                height={100} />
+            <Image src="/photos/morocco/marrakech14.JPG" alt="" width={300}
+                height={100} />
+            <Image src="/photos/morocco/marrakech15.JPG" alt="" width={300}
+                height={100} />
+            <Image src="/photos/morocco/marrakech16.JPG" alt="" width={300}
+                height={100} />
+            <Image src="/photos/morocco/marrakech18.JPG" alt="" width={300}
+                height={100} />
+            <Image src="/photos/morocco/marrakech19.JPG" alt="" width={300}
+                height={100} />
         </div>
-
     </div>
 }
