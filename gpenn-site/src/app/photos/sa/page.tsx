@@ -28,7 +28,13 @@ export default function SouthAfricaPage() {
             <Image src="/photos/southafrica/safari3.JPG" alt="" width={300}
                 height={100} />
             <Image src="/photos/southafrica/safari4.JPG" alt="" width={300}
-                height={100} />            
+                height={100} />        
+            <Image src="/photos/southafrica/safari6.jpg" alt="" width={300}
+                height={100} />    
+            <Image src="/photos/southafrica/safari7.jpg" alt="" width={300}
+                height={100} />     
+            <Image src="/photos/southafrica/safari8.jpg" alt="" width={300}
+                height={100} />     
         </div>
 
     </div>
