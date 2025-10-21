@@ -44,7 +44,7 @@ export default function FrancePage() {
                 height={100} />
             <Image src="/photos/france/nice4.JPG" alt="" width={125}
                 height={100} />
-            <Image src="/photos/france/nice5.JPG" alt="" width={125}
+            <Image src="/photos/france/nice5.jpg" alt="" width={125}
                 height={100} />
             <Image src="/photos/france/nice6.JPG" alt="" width={300}
                 height={100} />              

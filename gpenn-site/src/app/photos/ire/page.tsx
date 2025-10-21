@@ -3,8 +3,8 @@ import Image from 'next/image'
 export default function IrelandPage() {
     return <div>
         <div className="gallery gap-4">
-            <Image src="/photos/ireland/ire1.JPG" alt="" width={300}
-                height={100} />
+            {/* <Image src="/photos/ireland/ire1.JPG" alt="" width={300}
+                height={100} /> */}
             <Image src="/photos/ireland/ire2.JPG" alt="" width={125}
                 height={100} />
             {/* <Image src="/photos/ireland/ire3.JPG" alt="" width={300}
