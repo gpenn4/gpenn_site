@@ -3,15 +3,13 @@ import Image from 'next/image'
 export default function UKPage() {
   return <div>
     <div className="gallery gap-4">
-      <Image src="/photos/scotland/scotland1.JPG" alt="" width={300}
+      <Image src="/photos/scotland/scotland8.JPG" alt="" width={300}
         height={100} />
       <Image src="/photos/scotland/scotland2.JPG" alt="" width={300}
         height={100} />
       <Image src="/photos/scotland/scotland3.JPG" alt="" width={300}
         height={100} />
       <Image src="/photos/scotland/scotland4.JPG" alt="" width={300}
-        height={100} />
-      <Image src="/photos/scotland/scotland8.JPG" alt="" width={300}
         height={100} />
       {/* <Image src="/photos/scotland/scotland5.JPG" alt="" width={300}
         height={100} /> */}
@@ -26,6 +24,8 @@ export default function UKPage() {
       <Image src="/photos/scotland/scotland11.JPG" alt="" width={300}
         height={100} />
       <Image src="/photos/scotland/scotland12.JPG" alt="" width={300}
+        height={100} />
+      <Image src="/photos/scotland/scotland1.JPG" alt="" width={300}
         height={100} />
       <Image src="/photos/scotland/scotland13.JPG" alt="" width={300}
         height={100} />
