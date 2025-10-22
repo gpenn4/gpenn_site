@@ -138,11 +138,11 @@ export default function UKPage() {
 
       {/* LONDON */}
       <h1 className="text-xl font-bold py-20">London</h1>
-      <Image src="/photos/england/london1.jpg" alt="" width={300}
+      <Image src="/photos/england/london1.JPG" alt="" width={300}
         height={100} />
-      <Image src="/photos/england/london2.jpg" alt="Hyde Park Architecture" width={300}
+      <Image src="/photos/england/london2.JPG" alt="Hyde Park Architecture" width={300}
         height={100} />
-      <Image src="/photos/england/london3.jpg" alt="Autumn Hyde Park" width={300}
+      <Image src="/photos/england/london3.JPG" alt="Autumn Hyde Park" width={300}
         height={100} />
       <Image src="/photos/england/london4.jpg" alt="Kew Lily Pads" width={300}
         height={100} />
@@ -153,12 +153,12 @@ export default function UKPage() {
 
       {/* NORTHERN IRELAND */}
       <h1 className="text-xl font-bold py-20">Northern Ireland</h1>
-      <Image src="/photos/ireland/ire1.JPG" alt="" width={300}
-        height={100} />
+      {/* <Image src="/photos/ireland/ire1.JPG" alt="" width={300}
+        height={100} /> */}
       <Image src="/photos/ireland/ire2.JPG" alt="" width={125}
         height={100} />
-      <Image src="/photos/ireland/ire4.jpg" alt="" width={125}
-        height={100} />
+      {/* <Image src="/photos/ireland/ire4.jpg" alt="" width={125}
+        height={100} /> */}
       <Image src="/photos/ireland/ire5.jpg" alt="" width={300}
         height={100} />
     </div>
