@@ -39,7 +39,7 @@ export default function SpainPage() {
                 height={100} />
             <Image src="/photos/spain/tenerife7.JPG" alt="" width={300}
                 height={100} />
-            <Image src="/photos/spain/tenerife11.JPG" alt="" width={125}
+            <Image src="/photos/spain/tenerife11.jpg" alt="Waterfall" width={125}
                 height={100} />
             <Image src="/photos/spain/tenerife4.JPG" alt="" width={300}
                 height={100} />
