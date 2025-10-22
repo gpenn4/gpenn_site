@@ -3,6 +3,7 @@ import Image from 'next/image'
 export default function FrancePage() {
     return <div>
         <div className="gallery gap-4">
+            <h1 className="text-xl font-bold py-20">Paris</h1>
             <Image src="/photos/france/paris1.jpg" alt="" width={300}
                 height={100} />
             <Image src="/photos/france/paris3.JPG" alt="" width={300}
@@ -36,6 +37,7 @@ export default function FrancePage() {
             <Image src="/photos/france/paris17.jpg" alt="" width={300}
                 height={100} />
 
+            <h1 className="text-xl font-bold py-20">Nice</h1>
             <Image src="/photos/france/nice1.JPG" alt="" width={300}
                 height={100} />
             <Image src="/photos/france/nice2.JPG" alt="" width={300}
@@ -47,7 +49,12 @@ export default function FrancePage() {
             <Image src="/photos/france/nice5.jpg" alt="" width={125}
                 height={100} />
             <Image src="/photos/france/nice6.JPG" alt="" width={300}
-                height={100} />              
+                height={100} />
+            <Image src="/photos/france/nice7.JPG" alt="" width={125}
+                height={100} />
+            <Image src="/photos/france/nice9.JPG" alt="" width={300}
+                height={100} />
+                           
         </div>
     </div>
 }
