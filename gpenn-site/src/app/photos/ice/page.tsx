@@ -3,6 +3,7 @@ import Image from 'next/image'
 export default function IcelandPage() {
     return <div>
         <div className="gallery gap-4">
+            {/* REYKJAVIK */}
             <h1 className="text-xl font-bold py-20">Reykjavík</h1>
             <Image src="/photos/iceland/reyk1.jpg" alt="" width={300}
                 height={100} />
@@ -22,9 +23,8 @@ export default function IcelandPage() {
                 height={100} />
             <Image src="/photos/iceland/reyk8.JPG" alt="" width={130}
                 height={100} />
-            <Image src="/photos/iceland/reyk5.jpg" alt="" width={130}
-                height={100} />
 
+            {/* NÚPSSTAÐUR */}
             <h1 className="text-xl font-bold py-20">Núpsstaður</h1>
             <Image src="/photos/iceland/ice7.JPG" alt="" width={300}
                 height={100} />
@@ -43,6 +43,7 @@ export default function IcelandPage() {
             <Image src="/photos/iceland/nup3.jpg" alt="" width={130}
                 height={100} />
 
+            {/* FJALLSÁRLÓN */}
             <h1 className="text-xl font-bold py-20">Fjallsárlón</h1>
             <Image src="/photos/iceland/ice4.JPG" alt="" width={300}
                 height={100} />
@@ -53,6 +54,7 @@ export default function IcelandPage() {
             <Image src="/photos/iceland/ice12.JPG" alt="" width={300}
                 height={100} />
 
+            {/* THINGVELLIR NATIONAL PARK */}
             <h1 className="text-xl font-bold py-20">Thingvellir National Park</h1>
             <Image src="/photos/iceland/ice2.HEIC" alt="" width={300}
                 height={100} />
@@ -75,9 +77,10 @@ export default function IcelandPage() {
                 height={100} />
             <Image src="/photos/iceland/ice22.jpg" alt="" width={130}
                 height={100} />
-            <Image src="/photos/iceland/ice23.JPG" alt="people under waterfall" width={300}
+            <Image src="/photos/iceland/ice23.jpg" alt="people under waterfall" width={300}
                 height={100} />
 
+            {/* DIAMOND BEACH */}
             <h1 className="text-xl font-bold py-20">Diamond Beach</h1>
             <Image src="/photos/iceland/ice13.JPG" alt="" width={300}
                 height={100} />
