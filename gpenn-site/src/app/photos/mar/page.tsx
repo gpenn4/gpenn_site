@@ -3,6 +3,7 @@ import Image from 'next/image'
 export default function MoroccoPage() {
     return <div>
         <div className="gallery gap-4">
+            <h1 className="text-xl font-bold py-20">Marrakech</h1>
             <Image src="/photos/morocco/marrakech1.JPG" alt="" width={300}
                 height={100} />
             <Image src="/photos/morocco/marrakech17.JPG" alt="" width={300}
