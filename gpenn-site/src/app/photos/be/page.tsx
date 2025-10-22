@@ -3,8 +3,7 @@ import Image from 'next/image'
 export default function BelgiumPage() {
     return <div>
         <div className="gallery gap-4">
-            {/* <Image src="/photos/belgium/brussels2.JPG" alt="" width={300}
-                height={100} /> */}
+            <h1 className="text-xl font-bold py-20">Brussels</h1>
             <Image src="/photos/belgium/brussels4.jpg" alt="" width={300}
                 height={100} />
             <Image src="/photos/belgium/brussels5.JPG" alt="" width={300}
@@ -30,6 +29,5 @@ export default function BelgiumPage() {
             <Image src="/photos/belgium/brussels13.jpg" alt="" width={125}
                 height={100} />
         </div>
-
     </div>
 }
