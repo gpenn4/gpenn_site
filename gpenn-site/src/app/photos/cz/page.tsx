@@ -30,7 +30,7 @@ export default function CzechiaPage() {
                 height={100} />
             <Image src="/photos/czechia/prague13.jpg" alt="" width={130}
                 height={100} />
-            <Image src="/photos/czechia/prague14.JPG" alt="" width={300}
+            <Image src="/photos/czechia/prague14.jpg" alt="" width={300}
                 height={100} />
         </div>
 
