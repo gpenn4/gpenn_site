@@ -45,7 +45,9 @@ body {
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  /* justify-content: center; */
+  /* text-align: center; */
+  /* vertical-align: middle; */
   /* justify-content: space-around; */
   justify-content: space-evenly;
 }
@@ -99,7 +101,7 @@ body {
 }
 
 .content {
-  /* margin-top: 20px; */
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
