@@ -3,6 +3,7 @@ import Image from 'next/image'
 export default function CzechiaPage() {
     return <div>
         <div className="gallery gap-4">
+            <h1 className="text-xl font-bold py-20">Prague</h1>
             <Image src="/photos/czechia/prague1.JPG" alt="" width={300}
                 height={100} />
             <Image src="/photos/czechia/prague3.JPG" alt="" width={300}
@@ -26,6 +27,10 @@ export default function CzechiaPage() {
             <Image src="/photos/czechia/prague11.JPG" alt="" width={300}
                 height={100} />
             <Image src="/photos/czechia/prague12.JPG" alt="" width={300}
+                height={100} />
+            <Image src="/photos/czechia/prague13.jpg" alt="" width={130}
+                height={100} />
+            <Image src="/photos/czechia/prague14.JPG" alt="" width={300}
                 height={100} />
         </div>
 
