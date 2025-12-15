@@ -9,11 +9,11 @@ export default function IcelandPage() {
                 height={100} />
             <Image src="/photos/iceland/reyk10.jpg" alt="" width={130}
                 height={100} />
-            <Image src="/photos/iceland/reyk9.jpg" alt="Ijornin" width={300}
+            <Image src="/photos/iceland/reyk9.jpg" alt="Tjornin" width={300}
                 height={100} />
-            <Image src="/photos/iceland/reyk2.jpg" alt="Ijornin" width={300}
+            <Image src="/photos/iceland/reyk2.jpg" alt="Tjornin" width={300}
                 height={100} />
-            {/* <Image src="/photos/iceland/reyk6.JPG" alt="Ijornin" width={300}
+            {/* <Image src="/photos/iceland/reyk6.JPG" alt="Tjornin" width={300}
                 height={100} /> */}
             <Image src="/photos/iceland/reyk7.JPG" alt="" width={130}
                 height={100} />
