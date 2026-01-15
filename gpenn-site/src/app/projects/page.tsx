@@ -175,6 +175,7 @@ export default function ProjectsPage() {
           <div className='space-y-6'>
             <h1 className="text-2xl font-bold">Internships</h1>
 
+            {/* GOLDENTREE */}
             <Popup trigger={<button className="trigger-button">GoldenTree Asset Management - Technology Intern
               <div className="mt-4 flex flex-wrap gap-2">
                 <Tag key={"Python"} label={"Python"} />
@@ -217,6 +218,7 @@ export default function ProjectsPage() {
               </div>
             </Popup>
 
+            {/* LOCAL KNOWLEDGE */}
             <Popup trigger={<button className="trigger-button">Local Knowledge - Full Stack Developer
               <div className="mt-4 flex flex-wrap gap-2">
                 <Tag key={"Flutter"} label={"Flutter"} />
@@ -237,13 +239,49 @@ export default function ProjectsPage() {
                 </div>
               </div>
             </Popup>
+
+            {/* OTHER PROJECTS */}
+            <h1 className="text-2xl font-bold">Other Projects</h1>
+
+            <Popup trigger={<button className="trigger-button">AI Resume Reviewer
+              <div className="mt-4 flex flex-wrap gap-2">
+                <Tag key={"Python"} label={"Python"} />
+                <Tag key={"gradio"} label={"gradio"} />
+                <Tag key={"Hugging Face"} label={"Hugging Face"} />
+                <Tag key={"ollama"} label={"ollama"} />
+                <Tag key={"Git"} label={"Git"} />
+              </div>
+            </button>} position="right center" modal nested>
+              <div className="modal">
+                <div className="header font-bold">AI Resume Reviewer</div>
+                <div className="content">
+                  <div className="inline-block rounded-full border px-5 py-5 leading-none bg-yellow-200 text-center">
+                    <p>Designed and implemented a resume review assistant.</p>
+                  </div>
+                </div>
+              </div>
+            </Popup>
+
+            <Popup trigger={<button className="trigger-button">Kalshi Markets Dashboard
+              <div className="mt-4 flex flex-wrap gap-2">
+                <Tag key={"Python"} label={"Python"} />
+                <Tag key={"Pandas"} label={"Pandas"} />
+                <Tag key={"NumPy"} label={"NumPy"} />
+                <Tag key={"Google Sheets API"} label={"Google Sheets API"} />
+                <Tag key={"GitActions"} label={"GitActions"} />
+              </div>
+            </button>} position="right center" modal nested>
+              <div className="modal">
+                <div className="header font-bold">Kalshi Markets Dashboard</div>
+                <div className="content">
+                  <div className="inline-block rounded-full border px-5 py-5 leading-none bg-yellow-200 text-center">
+                    <p>Designed and implemented a Python script to pull data from Kalshi markets API.</p>
+                  </div>
+                </div>
+              </div>
+            </Popup>
           </div>
         </div>
-
-        {/* <h3 className="italic">Year-Long Software Engineering Team Project</h3>
-        <ul className="list-disc pl-5 space-y-2">
-          <li>Worked in an Agile team.</li>
-        </ul> */}
 
       </main>
     </div>
