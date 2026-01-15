@@ -37,38 +37,36 @@ export default function AboutPage() {
           </div>
         </div>
         <h1 className="text-xl font-bold">Technical Skills</h1>
-        {/* <div className='flex flex-col gap-10 justify-center items-center'> */}
         <div className="grid grid-cols-8 gap-15 flex justify-center items-center">
-          <div>
+          <div className='flex justify-center items-center flex-col'>
             <Image src="/icons/python_logo.png" alt="Python Logo" width={30}
-              height={100} />
+              height={100} className='img-object-contain h-[30px]' />
             <h1>Python</h1>
           </div>
-          <div>
+          <div className='flex justify-center items-center flex-col'>
             <Image src="/icons/java_logo.png" alt="Java Logo" width={30}
-              height={100} />
+              height={100} className='img-object-contain h-[30px]' />
             <h1>Java</h1>
           </div>
-          <div>
+          <div className='flex justify-center items-center flex-col'>
             <Image src="/icons/git_logo.png" alt="Git Logo" width={30}
-              height={100} />
+              height={100} className='img-object-contain h-[30px]' />
             <h1>Git</h1>
           </div>
-          <div>
-            <Image src="/icons/Matlab_Logo.png" alt="Matlab Logo" width={40}
-              height={100} />
+          <div className='flex justify-center items-center flex-col'  >
+            <Image src="/icons/Matlab_Logo.png" alt="Matlab Logo" width={30}
+              height={100} className='img-object-contain h-[30px]' />
             <h1>MatLab</h1>
           </div>
-          <div>
+          <div className='flex justify-center items-center flex-col'>
             <Image src="/icons/firebase_logo.png" alt="Firebase Logo" width={30}
-              height={100} />
+              height={100} className='img-object-contain h-[30px]' />
             <h1>Firebase</h1>
           </div>
         </div>
         <div>
         </div>
-        </div>
-      {/* </div> */}
+      </div>
     </main >
   );
 }
